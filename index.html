@@ -15,19 +15,27 @@
   <body>
     <div class="weather-app">
       <header>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
+        <input
+          type="search"
+          placeholder="Enter a city..."
+          required
+          class="search-form-input"
+        />
+        <input type="submit" value="Search" class="search-form-button" />
       </header>
       <main>
-        <h1>Benoni</h1>
-        <div>
-          <p>
-            Tuesday 14:49, cloudy
-            <br />
-            Humidity: 66% Wind: 3.5km/h
-          </p>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="weather-app-city">Benoni</h1>
+
+            <p class="weather-app-details">
+              Tuesday 14:49, cloudy
+              <br />
+              Humidity: <strong>66%</strong> Wind: <strong>3.5km/h</strong>
+            </p>
+          </div>
+          <div class="weather-app-temp">☁ 12℃</div>
         </div>
-        <div>☁ 12℃</div>
       </main>
       <footer>
         Coded by
