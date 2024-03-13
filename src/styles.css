@@ -84,12 +84,20 @@ main {
   font-size: 16px;
   opacity: 0.6;
 }
-.weather-forecast-temp {
+.weather-app-icon {
+  display: block;
+  margin: 0 auto;
+  width: 33px;
+  height: 33px;
+}
+.weather-forecast-temperature {
   font-size: 13px;
   color: #692369;
 }
-.weather-forecast-temp-min {
+.weather-forecast-temperature-min {
   opacity: 0.5;
+  font-size: 13px;
+  color: #692369;
 }
 footer {
   border-top: 1px solid #f9f7fe;
